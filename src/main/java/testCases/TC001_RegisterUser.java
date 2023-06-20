@@ -10,7 +10,7 @@ public class TC001_RegisterUser extends CapstonWrappers {
 	
 	@BeforeClass
 	public void setValues(){
-		browserName = "edge";
+		browserName = "chrome";
 		dataSheetName = "TC001";
 		testCaseName = "RegisterUser";
 		testDescription = "Verify the registration process of the user";
